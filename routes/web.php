@@ -33,6 +33,3 @@ Route::get('/product', function () {
     return view('product');
 });
 
-Route::get('/product', function () {
-    return view('produt');
-});
