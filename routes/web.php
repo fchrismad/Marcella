@@ -32,3 +32,7 @@ Route::get('/pricing', function () {
 Route::get('/product', function () {
     return view('product');
 });
+
+Route::get('/product', function () {
+    return view('produt');
+});
