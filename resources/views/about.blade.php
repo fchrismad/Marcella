@@ -13,7 +13,7 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="https://w3docs.com/">
+        <a class="navbar-brand" href="#">
           <img src="img/Group 4.svg" alt="Bootstrap" width="296" height="66" />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,22 +22,25 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="product.html">Product</a>
+              <a class="nav-link" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="/product">Product</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="pricing.html">Pricing</a>
+              <a class="nav-link" href="/about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="insight.html">Insights</a>
+              <a class="nav-link" href="/pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/insight">Insights</a>
             </li>
           </ul>
           <button type="button" class="btn btn-primary" onclick="window.location.href='https://w3docs.com';">Login</button>
         </div>
       </div>
-    </nav>
+    </nav> 
     <img class="coba" src="img/Group 8.png" alt="Bootstrap" width="296" height="300" />
     <img class="coba1" src="img/image 20.png" alt="Bootstrap" width="296" height="300" />
     <img class="coba2" src="img/image 16 (1).png" alt="Bootstrap" width="296" height="300" />
