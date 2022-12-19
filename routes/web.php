@@ -33,3 +33,5 @@ Route::get('/product', function () {
     return view('product');
 });
 
+Route::resource('posts', 
+'App\Http\Controllers\PostController');
