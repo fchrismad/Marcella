@@ -21,10 +21,6 @@ Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('/insight', function () {
-    return view('insight');
-});
-
 Route::get('/pricing', function () {
     return view('pricing');
 });
@@ -35,3 +31,6 @@ Route::get('/product', function () {
 
 Route::resource('posts', 
 'App\Http\Controllers\PostController');
+
+Route::resource('insight', 
+'App\Http\Controllers\InsightController');

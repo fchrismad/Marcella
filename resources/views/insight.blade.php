@@ -42,16 +42,42 @@
       </div>
     </nav>
       <img class="coba" src="img/Group 9.png" alt="Bootstrap" width="296" height="300" />
-      <img class="coba1" src="img/image 25.png" alt="Bootstrap" width="296" height="300" />
+      {{-- <img class="coba1" src="img/image 25.png" alt="Bootstrap" width="296" height="300" />
       <img class="coba2" src="img/image 25.png" alt="Bootstrap" width="296" height="300" />
-      <img class="coba3" src="img/image 25.png" alt="Bootstrap" width="296" height="300" />
+      <img class="coba3" src="img/image 25.png" alt="Bootstrap" width="296" height="300" /> --}}
       <img class="coba5" src="img/Rectangle 151.png" alt="Bootstrap" width="296" height="300" />
       <img class="coba6" src="img/Rectangle 149 (1).png" alt="Bootstrap" width="296" height="300" />
       <img class="coba7" src="img/image 8.png" alt="Bootstrap" width="296" height="300" />
       <p><a href="https://w3docs.com/"><img class="coba9" src="img/Frame 13.svg" alt="Bootstrap" width="296" height="300";/></a></p>
 
-      <h1>Customer Insights</h1>
-      <h2>Marcella empowers the world’s top organizations to see and understand their data-inspiring breakthroughs and driving impact.</h2>
+      <div class="post">
+      <div class="container mt-4">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+            <h1>Blog Posts</h1>
+            <br>
+            @if(count($posts)>0)
+                @foreach ($posts as $post)
+                <div class="well">
+                    <h3>
+                    {{$post->title}}</h3>
+                    <small> 
+                      {{$post->created_at}}</small>
+                    <p>
+                    {{$post->description}}</p>
+                    <br>
+                </div>
+                @endforeach
+            @else
+                <h3>Tidak ada data</h3>
+            @endif
+            </div>
+        </div>
+      </div>
+      </div>
+
+      <h1 class="atas">Customer Insights</h1>
+      <h2 class="atas">Marcella empowers the world’s top organizations to see and understand their data-inspiring breakthroughs and driving impact.</h2>
       <p class="i">Try Marcella for free</p>
       <p class="j">About</p>
       <p class="k">Blog</p>
